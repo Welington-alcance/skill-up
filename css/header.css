@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.08);
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header__img{
+    width: 4rem;
+     filter: brightness(0) invert(1);
+    
+}
+
+.header__p{
+    font-size: 2.6rem;
+    font-weight: bold;
+    color: var(--color-text-primary);
+}
+
+.header__nav{
+    display: flex;
+    gap: 4rem;
+
+}
+
+.header__nav a{
+    font-size: 1.8rem;
+    color: var(--color-text-primary);
+}
+
+.header__btn{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--color-text-primary);
+    border-radius: 1rem;
+
+    background-color: var(--color-btn);
+    padding: 1.5rem 4rem;
+}
+

@@ -1,0 +1,13 @@
+:root{
+
+    --color-text-primary: #FFFFFF;
+    --color-text-secondary: #C7D2E1;
+
+    --color-btn: #2EC4B6;
+    --color-btn-hover: #25B2A5;
+
+    --color-white: #fff;
+    --color-black: #000;
+
+    --color-backgroud: linear-gradient(135deg,#0B132B 0%,#0F1C3F 35%, #142A5C 65%,#1F3B7A 100%);
+}
