@@ -1,3 +1,35 @@
-.main{
-    height: 100vh;
+.hero{
+    background-image: url(../img/background-hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0 5rem;
+    height: 60rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.hero__title{
+    font-size: 4rem;
+    color: var(--color-text-primary);
+    width: 40%;
+    margin-top: 6rem;
+}
+
+.hero__p{
+    font-size: 1.8rem;
+    color: var(--color-text-secondary);
+    width: 40%;
+}
+
+.hero__btn{
+    font-size: 2rem;
+    color: var(--color-white);
+    background-color: var(--color-btn);
+    width: 30rem;
+    padding: 2rem 0;
+    text-align: center;
+    border-radius: 1rem;
 }
